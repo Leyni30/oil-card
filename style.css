@@ -22,3 +22,20 @@
     color: #fff;
     font-size: 36px;
 }
+
+@media screen and (max-width: 560px) {
+    .oilimg {
+        position: absolute;
+        height: 100vh;
+        width: 450px;
+    }
+    .greeting {
+        position: absolute;
+        top: 60px;
+        left: 40px;
+        width: 400px;
+        height: 500px;
+        color: #fff;
+        font-size: 29px;
+    }
+}
