@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+.oilimg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.greeting {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    width: 400px;
+    height: 500px;
+    color: #fff;
+    font-size: 36px;
+}
